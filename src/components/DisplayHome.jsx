@@ -1,8 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar.jsx'
-import {albumsData} from '../assets/assets.js'
+import {albumsData, songsData} from '../assets/assets.js'
 import AlbumItem from './AlbumItem.jsx'
-import {songsData } from '../assets/assets.js'
 import SongItem from './SongItem.jsx'
 
 const DisplayHome = () => {
@@ -10,7 +9,7 @@ const DisplayHome = () => {
         <>
             <Navbar/>
             <div className='mb-4'>
-                <h1 className='my-5 font-bold text-2xl'>Жанры</h1>
+                <h1 className='my-5 font-bold text-2xl'>Плейлисты</h1>
                 <div className='flex overflow-auto'>
                     {albumsData.map((item, index) => (
                         <AlbumItem key={index} name={item.name} desc={item.desc} id={item.id} image={item.image}/>))}
