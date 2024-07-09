@@ -1,3 +1,3 @@
-# React + Vite Music App by avo1d
+# React + Vite + Tailwind CSS Music App by avo1d
 
-Музыкальное приложение/копия популярного Spotify
+Музыкальное приложение с плейлистами, проигрывателем от avo1d
